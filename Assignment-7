@@ -1,0 +1,13 @@
+<!doctype>
+<html>
+<head>
+<title>text update demo</title>
+</head>
+<body>
+      <p>
+         <span id="d">DOB</span>
+          is 12-june-2001
+      </p>
+<button type="button" onclick="document.getElementById('d').innerHTML= 'date of birth'"> change text</button>
+</body>
+</html>

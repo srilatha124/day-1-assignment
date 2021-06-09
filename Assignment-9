@@ -1,0 +1,14 @@
+<!doctype>
+<html>
+<head>
+<title>ordered demo</title>
+</head>
+<body>
+<h2>list items</h2>
+    <ol type= "i">
+     <li>name</li>
+      <li>adhar card</li>
+      <li>mobile no</li>
+    </ol>
+</body>
+</html>

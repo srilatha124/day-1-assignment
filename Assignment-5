@@ -1,0 +1,47 @@
+<!doctype>
+<html>
+<head>
+<title>div tag demo</title>
+<style type=text/css>
+.leftdiv
+{
+ float: left;
+}
+.middletdiv
+{
+ float: left;
+ background-color: black
+}
+.rightdiv
+{
+ float: left;
+}
+div
+{
+padding:1%;
+color: white;
+background-color: green;
+}
+</style>
+</head>
+<body>
+  <div class="leftdiv">
+    <h1>heading 1</h1>
+      <p>
+        A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea.
+      </p>
+  </div>
+  <div class="middlediv">
+    <h1>heading 2</h1>
+      <p>
+        A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea.
+      </p>
+  </div>
+   <div class="rightdiv">
+    <h1>heading 3</h1>
+      <p>
+        A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea.
+      </p>
+  </div>
+</body>
+</html>

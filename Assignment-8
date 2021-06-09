@@ -1,0 +1,13 @@
+<!doctype>
+<html>
+<head>
+<title>unordered demo</title>
+</head>
+<body>
+<h2>list items</h2>
+    <ul style="list-style-type: square">
+     <li>name</li>
+      <li>adhar card</li>
+      <li>mobile no</li>
+</body>
+</html>

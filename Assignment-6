@@ -1,0 +1,15 @@
+<!doctype>
+<html>
+<head>
+<title>span tag demo</title>
+</head>
+<body>
+      <p>
+        <span style=" color: red">A </span>
+paragraph is a series of related sentences developing a central idea, called the 
+ <span style=" color: red">topic.</span>
+ Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one 
+ <span style=" color: red"> central, unified idea.</span>
+      </p>
+</body>
+</html>

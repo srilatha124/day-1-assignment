@@ -1,0 +1,11 @@
+<!doctype>
+<html>
+<head>
+<title>br tag demo</title>
+</head>
+<body>
+    <p>
+   Johny! Johny!<br>Yes, Papa?<br>Eating sugar?<br>No, Papa!<br>Telling lies?<br>No papa.<br>Open your mouth.<br>Ha Ha Ha!
+    </p>
+</body>
+</html>

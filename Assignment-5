@@ -1,47 +1,51 @@
-<!doctype>
+<!DOCTYPE htmi>
+
 <html>
+
 <head>
-<title>div tag demo</title>
-<style type=text/css>
-.leftdiv
-{
- float: left;
+
+<style>
+
+atlink {
+color: green;
+background-color: transparent;
+text-decoration: none;
+
 }
-.middletdiv
-{
- float: left;
- background-color: black
+
+avisited {
+color: pink;
+background-color: transparent;
+text-decoration: none;
+
 }
-.rightdiv
-{
- float: left;
+
+achover {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+
 }
-div
-{
-padding:1%;
-color: white;
-background-color: green;
-}
+
+acactive {
+color: yellow;
+background-color: transparent;
+text-decoration: underline;
+
+2
+
 </style>
+
 </head>
+
 <body>
-  <div class="leftdiv">
-    <h1>heading 1</h1>
-      <p>
-        A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea.
-      </p>
-  </div>
-  <div class="middlediv">
-    <h1>heading 2</h1>
-      <p>
-        A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea.
-      </p>
-  </div>
-   <div class="rightdiv">
-    <h1>heading 3</h1>
-      <p>
-        A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea.
-      </p>
-  </div>
+
+‘<h2>Link Colors</h2>
+
+<p>You can change the default colors of links</p>
+
+<a href="https://facebook/" target="_blank">facebook</a>
+
 </body>
+
 </html>

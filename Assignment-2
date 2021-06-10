@@ -1,11 +1,12 @@
-<!doctype>
+<!DOCTYPE>
 <html>
 <head>
-<title>headings</title>
-<link src="stylesheet" type="text/css" href="style.css">
+	<title>navigation section</title>
 </head>
 <body>
-   <h1>heading</h1>
-   <h2>srilatha</h2>
+	<nav>
+           <a link="https://kitsguntur.ac.in/site/kitsgnt.php">about us|</a>
+           <a link="https://kitsguntur/section">section</a>
+	</nav>
 </body>
 </html>

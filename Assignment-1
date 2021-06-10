@@ -1,30 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
 <head>
- <title>table demo</title>
+	<title>Anchor tag</title>
 </head>
 <body>
-     <table border="1">
-           <tr>
-                <th>name</th>
-                <th>adhar no</th>
-                <th>mobile no</th>
-           </tr>
-           <tr>
-                <td>aaa</td>
-                <td>123412341234</td>
-                <td>1212121212</td>
-            </tr>
-            <tr>
-                <td>bbb</td>
-                <td>567856785678</td>
-                <td>3434343434</td>
-            </tr>
-            <tr>
-                <td>ccc</td>
-                <td>567856785123</td>
-                <td>1234567890</td>
-            </tr>
-      </table>
+	<a href="https://kitsguntur.ac.in/">Our college webiste</a>
 </body>
 </html>

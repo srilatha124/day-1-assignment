@@ -1,11 +1,18 @@
-<!doctype>
+<!DOCTYPE>
 <html>
 <head>
-<title>br tag demo</title>
+	<title>js function</title>
+        <script type = "text/javascript">  
+         function msgprint() {  
+            alert("srilatha");  
+         }  
+</script>  
 </head>
 <body>
-    <p>
-   Johny! Johny!<br>Yes, Papa?<br>Eating sugar?<br>No, Papa!<br>Telling lies?<br>No papa.<br>Open your mouth.<br>Ha Ha Ha!
-    </p>
+	<p>Click on the following button for calling the function: </p>        
+      <form>  
+         <input type = "button" onclick = "msgprint()" value = "Message Print">   
+      </form>       
+      <p>  
 </body>
 </html>

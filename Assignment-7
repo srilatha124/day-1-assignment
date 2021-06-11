@@ -1,48 +1,21 @@
-
 <!DOCTYPE>
 <html>
 <head>
-	<title>Radiobutton</title>
+	<h1>Linking php and html</h1>
 </head>
 <body>
 	<form>
-		<p>Select your fav language</p>
-		<input type="radio" id="Telugu" value="Telugu" name="language"/>Telugu
-		<input type="radio" id="Malayalam" value="Malayalam" name="language"/>Malayalam<br/>
-		<label>Pick your fav colors</label><br/>
-		<input type="checkbox" name="pink" id="pink"/>Pink<br/>
-		<input type="checkbox" name="yellow" id="yellow"/>Yellow<br/>
-		
-	</form>
-	<button onclick="submit()">click me</button>
-	<p id="languager"></p><p>your color is</p>
-	<p id="result"></p>
-	<script>
-		function submit()
-		{
-			if(document.getElementById('Telugu').checked==true) {
-				document.getElementById('languager').innerHTML='Telugu';
-			} else if(document.getElementById('Malayalam').checked==true) {
-				document.getElementById('languager').innerHTML='Malayalam';
-			}
-			
-			if(pink.checked==true&&yellow.checked==true)
-			{
-				res='pink,yellow';
-			}
-			else if(pink.checked==true&&yellow.checked==false)
-			{
-				res='pink';
-			}
-			else if(pink.checked==false &&yellow.checked==true){
-				res='yellow';
-			}
-			else 
-			{
-				res='none';
-			}
-			document.getElementById('result').innerHTML=res;
-		}
-	</script>
+	<label for="email">Email</label>
+	<input type="text" id="mail" name="mail" placeholder ="abc@gmail.com">
+</form>
+<button  onclick="submit()">Click to submit</button>
+<p id="res"></p>
+<script>
+	function submit()
+	{
+		var email=document.getElementById('mail').value;
+		document.getElementById('res').innerHTML=email;
+	}
+</script>
 </body>
-</htm
+</html>

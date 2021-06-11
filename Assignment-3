@@ -1,18 +1,10 @@
-<!DOCTYPE>
+!DOCTYPE html>
+
 <html>
-<head>
-	<title>js function</title>
-        <script type = "text/javascript">  
-         function msgprint() {  
-            alert("srilatha");  
-         }  
-</script>  
-</head>
-<body>
-	<p>Click on the following button for calling the function: </p>        
-      <form>  
-         <input type = "button" onclick = "msgprint()" value = "Message Print">   
-      </form>       
-      <p>  
-</body>
+	<body>
+		<video width="450" controls>
+			<source src="https://www.google.com/search?q=rrr+teaser&client=ms-android-xiaomi-rev1&sxsrf=ALeKk00ScKEiyQWGmoOGxofVHLYCzEl3gg%3A1623383032724&ei=-NvCYPzhK4az9QOPnYi4Dg&oq=rrr+&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADIECCMQJzIECAAQQzIKCAAQhwIQsQMQFDIFCC4QsQMyBQgAELEDMgIIADIECAAQQzICCAA6BwgAEIcCEBRQihFY5C9gikBoAXAAeAOAAYMNiAG8OJIBCzQtMi4wLjEuMy4xmAEAoAEBwAEB&sclient=mobile-gws-wiz-serp# type="video/mp4" />
+			<track src="video.vtt" kind="subtitles" srclang="en" label="English">
+		</video>
+	</body>
 </html>

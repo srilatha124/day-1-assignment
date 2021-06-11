@@ -1,51 +1,14 @@
-<!DOCTYPE htmi>
-
+<!DOCTYPE html>
 <html>
-
-<head>
-
-<style>
-
-atlink {
-color: green;
-background-color: transparent;
-text-decoration: none;
-
-}
-
-avisited {
-color: pink;
-background-color: transparent;
-text-decoration: none;
-
-}
-
-achover {
-color: red;
-background-color: transparent;
-text-decoration: underline;
-
-}
-
-acactive {
-color: yellow;
-background-color: transparent;
-text-decoration: underline;
-
-2
-
-</style>
-
-</head>
-
-<body>
-
-‘<h2>Link Colors</h2>
-
-<p>You can change the default colors of links</p>
-
-<a href="https://facebook/" target="_blank">facebook</a>
-
-</body>
-
+	<head>
+		<title>Image Demo </title>
+	</head>
+	<body>
+		<h2>Floating Images</h2>
+		<p><b>Float the image to the right: </b></p>
+		<p style="text-align: justify;">
+			<img src="download/colleg.jpeg" style="float:right;width:42px;height:42px">
+			joined in KKR&KSR ENGEENERING COLLEGE IN 2020
+		</p>
+	</body>
 </html>

@@ -1,14 +1,16 @@
-<!doctype>
+<!DOCTYPE html>
 <html>
-<head>
-<title>ordered demo</title>
-</head>
-<body>
-<h2>list items</h2>
-    <ol type= "i">
-     <li>name</li>
-      <li>adhar card</li>
-      <li>mobile no</li>
-    </ol>
-</body>
+	<head>
+		<title>Name on Canvas</title>
+	</head>
+	<body>
+		<canvas id="c1" width="300" height="100" style="border:1px solid black">
+		</canvas>
+		<script>
+			var c=document.getElementById('c1');
+			cursor=c.getContext('2d');
+			cursor.font="30px Arial";
+			cursor.fillText("sri latha",10,50);
+		</script>
+	</body>
 </html>

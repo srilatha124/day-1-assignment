@@ -1,12 +1,9 @@
-<!DOCTYPE>
+<!DOCTYPE html>
+
 <html>
-<head>
-	<title>navigation section</title>
-</head>
-<body>
-	<nav>
-           <a link="https://kitsguntur.ac.in/site/kitsgnt.php">about us|</a>
-           <a link="https://kitsguntur/section">section</a>
-	</nav>
-</body>
+	<body>
+		<video width="400" height="400" controls>
+			<source src=https://www.google.com/search?q=rrr+teaser&client=ms-android-xiaomirev1&sxsrf=ALeKk00ScKEiyQWGmoOGxofVHLYCzEl3gg%3A1623383032724&NvCYPzhK4az9QOPnYi4Dg&oq=rrr+&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADIECCMQJzIECAAQQzIKCAAQhwIQsQMQFDIFCC4QsQMyBQgAELEDMgIIADIECAAQQzICCAA6BwgAEIcCEBRQihFY5C9gikBoAXAAeAOAAYMNiAG8OJIBCzQtMi4wLjEuMy4xmAEAoAEBwAEB&sclient=mobile-gws-wiz-serp#" type="video/mp4" />
+		</video>
+	</body>
 </html>

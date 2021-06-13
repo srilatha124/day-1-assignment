@@ -1,8 +1,18 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-	<body>
-		<audio controls >
-			<source src="https://mp3juic.vip/download/1e04hg7g/twinkle-twinkle-littlie-star-kirshna-mera-super-star type="audio/mp3">
-		</audio>
-	</body>
+<head>
+	<h1>Demonstrating descendant paragraphs</h1>
+	<style>
+	div p
+	{
+		background-color: red;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<p>This is paragraph one</p>
+		<p>This is paragraph 2</p>
+	</div>
+</body>
 </html>

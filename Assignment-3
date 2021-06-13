@@ -1,10 +1,21 @@
-!DOCTYPE html>
-
+<!DOCTYPE>
 <html>
+	<head>
+                <title>Child slection demo</title>
+		<h2>Child slection</h2>
+		<style>
+		div>p
+		{
+			background-color: deeppink;
+		}
+	</style>
+	</head>
 	<body>
-		<video width="450" controls>
-			<source src="https://www.google.com/search?q=rrr+teaser&client=ms-android-xiaomi-rev1&sxsrf=ALeKk00ScKEiyQWGmoOGxofVHLYCzEl3gg%3A1623383032724&ei=-NvCYPzhK4az9QOPnYi4Dg&oq=rrr+&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADIECCMQJzIECAAQQzIKCAAQhwIQsQMQFDIFCC4QsQMyBQgAELEDMgIIADIECAAQQzICCAA6BwgAEIcCEBRQihFY5C9gikBoAXAAeAOAAYMNiAG8OJIBCzQtMi4wLjEuMy4xmAEAoAEBwAEB&sclient=mobile-gws-wiz-serp# type="video/mp4" />
-			<track src="video.vtt" kind="subtitles" srclang="en" label="English">
-		</video>
+	<div>
+		<p>para 1</p>
+		<p>para 2</p>
+	</div>
+	<p>para 3</p>
+	<p>para 4</p>
 	</body>
 </html>

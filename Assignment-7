@@ -1,21 +1,24 @@
 <!DOCTYPE>
 <html>
-<head>
-	<h1>Linking php and html</h1>
-</head>
-<body>
-	<form>
-	<label for="email">Email</label>
-	<input type="text" id="mail" name="mail" placeholder ="abc@gmail.com">
-</form>
-<button  onclick="submit()">Click to submit</button>
-<p id="res"></p>
-<script>
-	function submit()
-	{
-		var email=document.getElementById('mail').value;
-		document.getElementById('res').innerHTML=email;
-	}
-</script>
-</body>
+	<head>
+		<h2>Displaying a paragraph only if it is hovered</h2>
+		<style>
+			p
+			{
+				display: none;
+				background-color: greenyellow;
+				color: deeppink;
+			}
+			div:hover p
+			{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			Hover over me to show the p element
+			<p>Paragraph is displayed</p>
+		</div>
+	</body>
 </html>

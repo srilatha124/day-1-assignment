@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-	<head>
-		<title>Image Demo </title>
+	<head><h2>Demonstrating id in css</h2>
+		<style>
+			#styling
+			{
+				background-color: red;
+			}
+		</style>
 	</head>
 	<body>
-		<h2>Floating Images</h2>
-		<p><b>Float the image to the right: </b></p>
-		<p style="text-align: justify;">
-			<img src="download/colleg.jpeg" style="float:right;width:42px;height:42px">
-			joined in KKR&KSR ENGEENERING COLLEGE IN 2020
-		</p>
+		<p id="styling">This is a stmt with styling</p>
+		<p>This is a stmt without styling</p>
 	</body>
 </html>
